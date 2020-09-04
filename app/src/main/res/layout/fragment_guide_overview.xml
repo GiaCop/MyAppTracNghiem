@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Giới thiệu"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:text="Trò chơi bao gồm 3 mức độ khác nhau mà bạn có thể lựu chọn cho mỗi bài kiểm tra. Ứng với mỗi mức độ hệ thống sẽ tạo ra ngẫu nhiên một gói cấu hỏi. Nhiệm vụ của bạn là cần phải trả lời các câu hỏ và dành điểm số lớn nhất."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/_13sdp" />
+    </RelativeLayout>
+</ScrollView>
